@@ -2,6 +2,8 @@ body {
     font-family: "Verdana";
 }
 
+/* Main Header */
+
 .main-header {
     display: inline-flex;
     float: left;
@@ -12,7 +14,6 @@ body {
     display: inline-flex;
     min-height: 60px;
     margin-left: 24px;
-
 }
 
 .main-header #a {
@@ -33,6 +34,8 @@ body {
     padding-bottom: 15px;;
 }
 
+/* Main Nav */
+
 .main-nav {
     display: inline-flex;
     float: right;
@@ -50,6 +53,8 @@ body {
     color: #4c4c4c;
     margin: 0 16px 0 16px;
 }
+
+/* Banner Section */
 
 .banner {
     display: inline-block;
@@ -93,6 +98,8 @@ body {
     padding-top: 8px;
 }
 
+/* Information Section */
+
 .information {
     display: inline-flex;
 }
@@ -117,7 +124,6 @@ body {
     width: 40%;
     height: auto;
     border-left: solid lightgray 1px;
-
 }
 
 .info-side-img {
@@ -138,9 +144,7 @@ body {
     color: lightskyblue;
 }
 
-.side-info-text a: visited {
-    color: lightskyblue;
-}
+
 
 .side-info1,
 .side-info2,
@@ -148,7 +152,6 @@ body {
     float: right;
     margin-top: 0.5px;
     margin-bottom: 0.5px;
-
 }
 
 .side-info1 {
@@ -163,3 +166,50 @@ body {
 .side-info3 {
     background-color: lightgray;
 }
+
+.side-info3 a:visited {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+/* Start Learning Section */
+
+#h1-learning {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 32px;
+    background-color: lightgray;
+    color: #4c4c4c;
+}
+
+.start-learning {
+    background-color: lightgray;
+    color: #4c4c4c;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 32px 0 32px 0;
+    padding-right: 75px;
+    padding-left: 74px;
+}
+
+.course-type {
+    background-color: #fff;
+    text-align: left;
+    margin: 32px;
+    width: 25%;
+}
+
+.course-type img {
+    width: 100%;
+}
+
+.course-type h4,
+.course-type p {
+    padding: 8px;
+    margin:16px;
+}
+
+
+
+
