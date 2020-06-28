@@ -54,24 +54,30 @@ body {
 .banner {
     display: inline-block;
     flex-direction: ;
-    height: 350px;
+    height: 100%;
     width: 100%;
     background-color: lightgrey;
-    
-
 }
 
 .banner img {
-    margin: 32px 24px;
+    margin: 32px 24px 32px 24px;
     width: 60%;
     float: left;
 }
 
 .banner-text {
     color: #4c4c4c;
+    width: 320px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+    margin: 150px 120px;
+    padding-left: 30px;   
+}
+
+.banner-text h4 {
+    font-weight: 600;
 }
 
 .banner a {
@@ -82,7 +88,78 @@ body {
     display: inline-block;
     text-align: center;
     height: 32px;
-    width: 200px;
+    width: 320px;
     margin: auto;
     padding-top: 8px;
+}
+
+.information {
+    display: inline-flex;
+}
+
+.information-main {
+    margin: 32px 24px 32px 24px;
+    color: #4c4c4c;
+    width: 60%;
+}
+
+.information-main h6 {
+    margin-top: 50px;
+}
+
+.info-main-img {
+    width: 100%;
+}
+
+.information-side {
+    display: inline-flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    border-left: solid lightgray 1px;
+
+}
+
+.info-side-img {
+    height: auto;
+    width: 35%;
+    margin: 16px;
+    float: left;
+}
+
+.side-info-text {
+    width: 65%;
+    padding-top: 32px;
+    padding-bottom: px;
+}
+
+.side-info-text a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.side-info-text a: visited {
+    color: lightskyblue;
+}
+
+.side-info1,
+.side-info2,
+.side-info3 {
+    float: right;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+
+}
+
+.side-info1 {
+    border-bottom: solid lightgray 1px;
+}
+
+.side-info2 {
+    border-top: solid lightgray 1px;
+    border-bottom: none;
+}
+
+.side-info3 {
+    background-color: lightgray;
 }
