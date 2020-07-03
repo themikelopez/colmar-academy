@@ -222,7 +222,7 @@ body {
 
 .thesis-main {
     display: inline-flex;
-    
+    color: #4c4c4c;
     flex-direction: column;
     margin: 24px;
 }
@@ -230,6 +230,7 @@ body {
 .thesis-main video,
 .thesis-main p {
     width: 60%;
+    color: gray;
 }
 
 .thesis-side {
@@ -254,3 +255,32 @@ body {
 }
 
 
+/* Footer Section */
+
+.footer {
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+
+    border-top: solid lightgray 1px;
+}
+
+.footer p {
+    color: gray;
+}
+
+#copy {
+    float: left;
+    padding: 16px 0 0 24px;
+
+}
+
+#links {
+    float: right;
+    padding: 16px 24px 0 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+}
