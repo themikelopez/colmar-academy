@@ -2,6 +2,17 @@ body {
     font-family: "Verdana";
 }
 
+.main-header {
+    display: inline-flex;
+}
+
+.main-header p {
+    ;
+}
+
+@media only screen and (min-width: 768px) {   
+
+
 /* Main Header */
 
 .main-header {
@@ -211,6 +222,9 @@ body {
 }
 
 /* Thesis Exhibit Section */
+.thesis {
+    display: inline-block
+}
 
 #thesis-title {
     color: #4c4c4c;
@@ -221,10 +235,11 @@ body {
 }
 
 .thesis-main {
-    display: inline-flex;
+    display: inline-block;
     color: #4c4c4c;
     flex-direction: column;
     margin: 24px;
+    width: auto;
 }
 
 .thesis-main video,
@@ -283,4 +298,6 @@ body {
 .footer a {
     text-decoration: none;
     color: gray;
+}
+
 }
