@@ -136,7 +136,7 @@ body {
 .side-info-text {
     width: 65%;
     padding-top: 32px;
-    padding-bottom: px;
+    padding-bottom: 0px;
 }
 
 .side-info-text a {
